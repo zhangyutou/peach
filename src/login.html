@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>login</title>
+    <style type="text/css">
+        body {
+            background-image:url('../image/lojin.jpg');
+
+        }
+        div {background-color: azure;
+            height: 260px;
+            width: 447px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            border: 1px azure;
+            left: 50px}
+        .mylogin {margin: 0 auto;
+            width: 400px;
+            padding: 14px;
+            z-index: 999}
+    </style>
+</head>
+
+<body>
+<div class="mylogin">
+<form id="login" method="GET" action="http://192.168.3.94:5000/" enctype="multipart/form-data">
+    <h1>login</h1>
+    用户名：<input type="text" name="name"><br>
+    密码：<input type="text" name="password"><br>
+    <input type="submit" value="提交">
+</form>
+</div>
+
+
+</body>
+
+</html>
